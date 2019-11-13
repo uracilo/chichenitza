@@ -39,15 +39,7 @@ class App extends Component {
           itemTwo={
 
                     <Camera
-          idealResolution = {{width: 640, height: 480}}
-          imageType = {IMAGE_TYPES.JPG}
-          imageCompression = {0.97}
-          isMaxResolution = {false}
-          isImageMirror = {false}
-          isSilentMode = {true}
-          isDisplayStartCameraError = {true}
           isFullscreen = {true}
-          sizeFactor = {1}
         />
           }
           onChange={position => console.log(`Landscape position: ${position}`)}
