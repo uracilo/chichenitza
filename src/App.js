@@ -37,10 +37,8 @@ class App extends Component {
             />
           }
           itemTwo={
-
-                    <Camera
-          isFullscreen = {true}
-        />
+          <Camera
+            />
           }
           onChange={position => console.log(`Landscape position: ${position}`)}
         />
