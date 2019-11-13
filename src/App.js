@@ -38,6 +38,10 @@ class App extends Component {
           }
           itemTwo={
           <Camera
+          isFullscreen = {true}
+                    isImageMirror = {true}
+          isSilentMode = {true}
+
             />
           }
           onChange={position => console.log(`Landscape position: ${position}`)}
