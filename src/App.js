@@ -15,18 +15,15 @@ class App extends Component {
     return (
       <div className="App">
       
-      <ReactCompareSlider
-        itemOne={<ReactCompareSliderImage src="https://i.pinimg.com/564x/6f/f5/28/6ff528f00d01efc8d5befdda1754e224.jpg" alt="Image one" />}
-        itemTwo={<Camera />}
-      />
-    <div style={{display: "flex",  width: "100%",  height: "50vh", overflow: "hidden" }}  >
+
+    <div style={{display: "flex",  width: "100%",  height: "100vh", overflow: "hidden" }}  >
         <ReactCompareSlider
           style={{ display: "flex" }}
           handle={
             <div
               style={{
-                backgroundImage: "linear-gradient(to top, red, blue)",
-                width: "2rem",
+                backgroundImage: "linear-gradient(to top,  white, blue)",
+                width: "0.5rem",
                 height: "100%"
               }}
             />
@@ -34,7 +31,7 @@ class App extends Component {
           itemOne={
             <ReactCompareSliderImage
               src="https://i.pinimg.com/564x/6f/f5/28/6ff528f00d01efc8d5befdda1754e224.jpg"
-              style={{ filter: "blur(25px)" }}
+              style={{ filter: "blur(5px)" }}
               alt="one"
             />
           }
