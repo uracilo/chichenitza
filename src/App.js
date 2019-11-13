@@ -32,7 +32,7 @@ class App extends Component {
           itemOne={
             <ReactCompareSliderImage
               src="https://i.pinimg.com/564x/6f/f5/28/6ff528f00d01efc8d5befdda1754e224.jpg"
-              style={{ filter: "blur(5px)" }}
+              style={{ filter: "blur(1px);  background-repeat: no-repeat; background-size: auto " }}
               alt="one"
             />
           }
